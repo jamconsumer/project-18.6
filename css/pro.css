@@ -1,0 +1,143 @@
+body {
+    background-color: red;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(190, 4, 4);
+}
+#menu li {
+    float: left;
+    border-left: rgb(255, 255, 255) solid 2px;
+    border-bottom: rgb(255, 255, 255) solid 2px;
+    
+}
+#menu li a {
+    padding: 33px ;
+    display: block;
+    color:white;
+    text-decoration: none;
+}
+#menu li a:hover {
+    transition: 500ms;
+    background-color:rgb(255, 253, 251);
+    color:black;
+}
+#menu li a img {
+    margin-top: -25px;
+    border: rgb(255, 255, 255) dotted 2px ;
+    float: right;
+    width: 50px;
+    height:50px;
+}
+#menu li span a {
+    background-color: rgba(118, 8, 8, 0.667);
+    color: black;
+}
+#right {
+    float: right;
+}
+#white {
+    color: white;
+}
+.Center {
+    width:200px;
+    height:200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: white solid 2px;
+    transition: 500ms;
+}
+.Center:hover { 
+    background-color: rgba(205, 10, 10, 0.964);
+    
+}
+.Centerimg {
+    width:200px;
+    height:200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.coke {
+    float: right;
+    width: 100px;
+   height: 100px ;
+   transition: 500ms;
+}
+.coke:hover {
+   width: 200px;
+   height:200px ;
+}
+#wr { 
+    float: right;
+    color: white;
+}
+.imgsize img{
+    padding: 20px;
+    height: 300px;
+    width:  175px;
+    float: left;
+    border: 1px dotted black;
+}
+
+.textsp {
+    padding-left: 90px;
+    word-spacing: 180px;
+    color: white;
+}
+#galtex{
+    float: right;
+    margin-right: 150px;
+    color: white;
+}
+#galtex a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+footer {
+    text-align: left;
+    padding: 3px;
+    background-color: rgba(221, 58, 49, 0.755);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
