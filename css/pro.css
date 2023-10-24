@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     border: 0;
     padding: 0;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(190, 4, 4);
+    background-color: rgb(78, 85, 219);
 }
 #menu li {
     float: left;
@@ -36,14 +36,14 @@ body {
     height:50px;
 }
 #menu li span a {
-    background-color: rgba(118, 8, 8, 0.667);
+    background-color: rgba(83, 70, 231, 0.667);
     color: black;
 }
 #right {
     float: right;
 }
 #white {
-    color: white;
+    color: black;
 }
 .Center {
     width:200px;
@@ -59,8 +59,7 @@ body {
     transition: 500ms;
 }
 .Center:hover { 
-    background-color: rgba(205, 10, 10, 0.964);
-    
+    background-color: rgba(255, 255, 255, 0.964);
 }
 .Centerimg {
     width:200px;
@@ -96,7 +95,7 @@ body {
 .textsp {
     padding-left: 90px;
     word-spacing: 180px;
-    color: white;
+    color: black;
 }
 #galtex{
     float: right;
@@ -107,7 +106,10 @@ body {
     text-decoration: none;
     color: white;
 }
-
+#ironsize{
+    height: 50%;
+    width: 50%;
+}
 
 
 
@@ -135,7 +137,7 @@ body {
 footer {
     text-align: left;
     padding: 3px;
-    background-color: rgba(221, 58, 49, 0.755);
+    background-color: rgba(78, 85, 219);
     color: white;
     position: fixed;
     width: 100%;
