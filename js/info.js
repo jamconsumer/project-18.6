@@ -9,9 +9,26 @@ const firebaseConfig = {
   };
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
-const dataRef = database.ref("email");
-
+const dataRefEmail = database.ref("email");
+const dataRefPass = database.ref("password");
+let passwordValue;
+dataRefPass.once('value')
+  .then(function(snapshot) {
+    passwordValue = snapshot.val(); 
+  })
+  .catch(function(error) {
+    console.error('Error fetching data:', error);
+  });
+function passcheck() {
+  let pass = document.getElementById("pass").value;
+  if (passwordValue == pass){
+    window.location.href = "webcam.html";
+  }
+  else{
+    alert("wrong, try again");
+  }
+}
 function send(){
-    const email = document.getElementById("email").value;
-    dataRef.set(email);
+  const email = document.getElementById("email").value;
+  dataRefEmail.set(email);
 }
