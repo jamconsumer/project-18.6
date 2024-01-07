@@ -136,8 +136,9 @@ window.onload = startObjectDetection;
 function reset(){
   ServoX.set(119);
   ServoY.set(119);
+  xaxis = 119;
+  yaxis = 119;
   detectObjects();
-
 }
 function laser(value) {
 LaserRef.set(value)
