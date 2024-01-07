@@ -6,6 +6,9 @@
     <title>Webcam</title>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
     <link rel="stylesheet" href="/css/pro.css">
 </head>
 <body>
@@ -17,8 +20,10 @@
         <li><span><a href="webcam.html">Webcam</a></span></li>
         <li style="float : right;"><a href="https://en.wikipedia.org/wiki/Iron_Dome"><img src="/img/flag.png"></a></li>
     </ul>
-    <div id="white">
-
+        <button onclick="reset()">reset</button>
+        <img id="img" src="" width="640" height="480" crossorigin="anonymous">
+        <canvas id="canvas" width="640" height="480" style="position: absolute; top: 0; left: 0;">
+        <div id="white">
         <footer>
             <p1>copyright 2024 Israel Gov <br>
                 (we didnt kill yitzhak rabin)<br>
@@ -28,6 +33,6 @@
            <a id="right" href="https://solitaired.com/" class="fa fa-twitter"></a>
            <a id="right" href="https://pwnable.kr/play.php" class="fa fa-android"></a>
         </footer>
-    <script src="/js/info.js"></script>
+    <script src = "js/video.js"></script>
 </body>
 </html>
